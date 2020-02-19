@@ -1,0 +1,23 @@
+body {
+    background-image: url(../jen-js30/IMAGES/javascript30-hero.jpg);
+    width: 50%;
+    height: 50%;
+}
+ol li {
+    margin: 20px;
+    font-size: 2rem;
+    line-height: 1.4em;
+    color: white;
+}
+ol {
+    margin-top: 20%;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
