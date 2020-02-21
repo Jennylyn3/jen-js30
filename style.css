@@ -4,13 +4,14 @@ body {
     height: 50%;
 }
 ol li {
-    margin: 20px;
-    font-size: 2rem;
-    line-height: 1.4em;
+    margin: 10px;
+    font-size: 1.5rem;
+    line-height: 1em;
     color: white;
 }
 ol {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .container {

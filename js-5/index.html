@@ -9,6 +9,7 @@
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
     <title>FLEX PANELS</title>
 </head>
@@ -40,15 +41,11 @@
             <p>Motion</p>
         </div>
     </div>
-    
-
-
-
     <script>
         const panels = document.querySelectorAll('.panel');
 
         function toggleOpen() {
-            Console.console.log('Hello');
+            console.log('Hello');
             this.classList.toggle('open');
         }
 
@@ -60,7 +57,7 @@
         }
 
         panels.forEach(panel => panel.addEventListener('click',toggleOpen));
-        panels.forEach(panel => panel.addEventListener('transitioned',toggleActive));
+        panels.forEach(panel => panel.addEventListener('transitionend',toggleActive));
     </script>
 </body>
 </html>
