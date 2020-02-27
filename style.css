@@ -1,24 +1,48 @@
-body {
+/* body {
     background-image: url(IMAGES/javascript30-hero.jpg);
     width: 50%;
     height: 50%;
-}
-ol li {
-    margin: 10px;
-    font-size: 1.5rem;
-    line-height: 1em;
-    color: white;
-}
-ol {
-    margin-top: 10%;
-    margin-left: 10%;
+} */
+
+body {
+    background-color: #ece0d2;
 }
 
+h1 {
+    color: #edc25a;
+    text-align: center;
+}
+h2 {
+    color: #8acecd;
+    text-align: center;
+}
+h4 {
+    color: #96ad9b;
+    text-align: center;
+    line-height: 1rem;
+}
+
+ol li {
+    font-size: 1rem;
+    line-height: 1em;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
 .container {
     display: flex;
-    margin: auto;
+    justify-content: center;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.item {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
 }
